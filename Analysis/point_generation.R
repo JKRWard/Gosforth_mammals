@@ -26,10 +26,13 @@ gp50 <- st_transform(gp50, crs = 27700)
 edge50 <- st_difference(x = gp, y = gp50)
 trees <- st_sample(edge50, 10)
 
+#plotting code doesn't always work?
 plot(gp["Name"], col = "blue")
 plot(gp50["Name"], add= TRUE, col = "green")
 plot(trees, add= TRUE, col = "red")
-#Failed attempt at creating spatial poin for buffering 
+
+
+#Failed attempt at creating spatial point from buffering 
 # #create polygon from boundary points 
 # library(readxl)
 # #import points
