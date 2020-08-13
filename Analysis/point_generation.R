@@ -31,7 +31,7 @@ plot(gp["Name"], col = "blue")
 plot(gp50["Name"], add= TRUE, col = "green")
 plot(trees, add= TRUE, col = "red")
 
-
+ # adding a note 
 #Failed attempt at creating spatial point from buffering 
 # #create polygon from boundary points 
 # library(readxl)
