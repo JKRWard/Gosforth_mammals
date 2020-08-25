@@ -78,7 +78,7 @@ plot(trees40, add = TRUE, col = "purple")
 
 trees <- c(trees10,trees20,trees30,trees40)
 tdf <- as.data.frame(trees)
-write.csv(tdf, "Data_raw/trees.csv")
+#write.csv(tdf, "Data_raw/trees.csv")
 
 
 #plotting code doesn't always work?
