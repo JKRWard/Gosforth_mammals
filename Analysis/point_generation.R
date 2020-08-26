@@ -8,6 +8,7 @@ library(ggplot2)
 library(rgdal)
 library(rgeos)
 library(here)
+library(tidyverse)
 #read in shape files 
 #Gosforth park nature reserve boundary
 gp <- st_read(dsn = here("Data_raw"),  layer = "GPNR")
@@ -95,4 +96,16 @@ tdf <- as.data.frame(trees)
 # # create polygon
 # gp <- st_polygon(list(as.matrix(bound_points)))
 
+# converting the points for putting onto gps
+pts <- read.csv(here("Data", "points_lonlat.csv"), stringsAsFactors = FALSE)
+
+pts <- pts %>%
+  pivot_longer(-Point) %>%
+  separate(name, into = c("ring", "loc"), sep = 5) %>%
+  mutate(loc = str_remove_all(loc, "[:punct:]")) %>%
+  mutate(ring = str_to_lower(ring)) %>%
+  pivot_wider(names_from = "loc", values_from = "value") %>%
+  st_as_sf(coords = c("lon", "lat"), crs = 4326)
+
+st_write(pts, here("Data", "points_lonlat.shp"), driver = "ESRI Shapefile")
 
