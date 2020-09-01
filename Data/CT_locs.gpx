@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GaiaGPS" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <wpt lat="55.027112" lon="-1.598837">
+    <ele>60.1</ele>
+    <time>2020-08-31T13:46:27Z</time>
+    <name>Camera arb</name>
+  </wpt>
+  <wpt lat="55.024785" lon="-1.593543">
+    <ele>53.9</ele>
+    <time>2020-08-26T14:01:55Z</time>
+    <name>Cam002</name>
+  </wpt>
+  <wpt lat="55.026630" lon="-1.596688">
+    <ele>60.7</ele>
+    <time>2020-08-26T15:04:26Z</time>
+    <name>Cam062</name>
+  </wpt>
+  <wpt lat="55.028435" lon="-1.594089">
+    <ele>62.6</ele>
+    <time>2020-08-26T14:37:49Z</time>
+    <name>Cam065</name>
+  </wpt>
+  <wpt lat="55.029050" lon="-1.598588">
+    <ele>63.1</ele>
+    <time>2020-09-01T10:09:21Z</time>
+    <name>Cam012</name>
+  </wpt>
+  <wpt lat="55.028115" lon="-1.602573">
+    <ele>47.9</ele>
+    <time>2020-09-01T12:56:29Z</time>
+    <name>Cam063</name>
+  </wpt>
+  <wpt lat="55.027693" lon="-1.601742">
+    <ele>58.5</ele>
+    <time>2020-08-31T15:38:18Z</time>
+    <name>Cam018</name>
+  </wpt>
+  <wpt lat="55.026162" lon="-1.592502">
+    <ele>57.9</ele>
+    <time>2020-08-26T14:20:48Z</time>
+    <name>Cam016</name>
+  </wpt>
+</gpx>

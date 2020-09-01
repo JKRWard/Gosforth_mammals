@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="55.024713700000000" minlon="-1.605589785000000" maxlat="55.029452319999997" maxlon="-1.591725276000000"/></metadata>                  
+<wpt lat="55.02945232" lon="-1.597711151">
+  <name>ring1</name>
+</wpt>
+<wpt lat="55.02701417" lon="-1.604055636">
+  <name>ring2</name>
+</wpt>
+<wpt lat="55.02506931" lon="-1.5971269">
+  <name>ring3</name>
+</wpt>
+<wpt lat="55.02658404" lon="-1.599892601">
+  <name>ring4</name>
+</wpt>
+<wpt lat="55.02816197" lon="-1.595020336">
+  <name>ring1</name>
+</wpt>
+<wpt lat="55.0247137" lon="-1.59756734">
+  <name>ring2</name>
+</wpt>
+<wpt lat="55.02772532" lon="-1.597978736">
+  <name>ring3</name>
+</wpt>
+<wpt lat="55.02584294" lon="-1.597755488">
+  <name>ring4</name>
+</wpt>
+<wpt lat="55.02520312" lon="-1.605589785">
+  <name>ring1</name>
+</wpt>
+<wpt lat="55.02482357" lon="-1.600209331">
+  <name>ring2</name>
+</wpt>
+<wpt lat="55.02620997" lon="-1.596147921">
+  <name>ring3</name>
+</wpt>
+<wpt lat="55.02676084" lon="-1.598911337">
+  <name>ring4</name>
+</wpt>
+<wpt lat="55.02929313" lon="-1.60160612">
+  <name>ring1</name>
+</wpt>
+<wpt lat="55.02486413" lon="-1.599560094">
+  <name>ring2</name>
+</wpt>
+<wpt lat="55.02703967" lon="-1.596501713">
+  <name>ring3</name>
+</wpt>
+<wpt lat="55.02644144" lon="-1.597161023">
+  <name>ring4</name>
+</wpt>
+<wpt lat="55.02688707" lon="-1.591725276">
+  <name>ring1</name>
+</wpt>
+<wpt lat="55.02710037" lon="-1.592751344">
+  <name>ring2</name>
+</wpt>
+<wpt lat="55.02727402" lon="-1.599290393">
+  <name>ring3</name>
+</wpt>
+<wpt lat="55.02682058" lon="-1.598481549">
+  <name>ring4</name>
+</wpt>
+</gpx>
